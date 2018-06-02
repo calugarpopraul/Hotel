@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etPhoneUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmailUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPasswordUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="131dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="282dp"
+        android:background="@drawable/buttonshape"
+        android:text="Sign up"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etNameUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
+</FrameLayout>

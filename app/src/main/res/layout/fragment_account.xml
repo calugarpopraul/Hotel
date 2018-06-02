@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="56dp"
+            android:background="@drawable/buttonshape"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/user"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookingEt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="119dp"
+            android:text="Booked Dates so far"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="32dp" />
+
+        <Button
+            android:id="@+id/btnSignOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonLogout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-56dp"
+            android:background="@drawable/buttonshape"
+            android:text="Sign out"
+            android:textColor="@android:color/white" />
+
+        <ListView
+            android:id="@+id/mDatesListView"
+            android:layout_width="wrap_content"
+            android:layout_height="316dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="216dp" />
+    </RelativeLayout>
+
+
+</FrameLayout>
